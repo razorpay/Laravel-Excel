@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "phpoffice/phpexcel": "^1.8.2",
+    "razorpay/phpexcel": "^1.8.2",
     "illuminate/cache": "^5.0",
     "illuminate/config": "^5.0",
     "illuminate/filesystem": "^5.0",
@@ -28,6 +28,12 @@
     "nesbot/carbon": "~1.0",
     "tijsverkoyen/css-to-inline-styles": "~2.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:razorpay/phpexcel.git"
+    }
+  ],
   "require-dev": {
     "phpseclib/phpseclib": "~1.0",
     "phpunit/phpunit": "~4.0",
