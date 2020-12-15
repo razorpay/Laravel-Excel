@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace RZP\Maatwebsite\Excel\Imports;
 
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithProgressBar;
-use Maatwebsite\Excel\Row;
+use RZP\Maatwebsite\Excel\Concerns\ToModel;
+use RZP\Maatwebsite\Excel\Concerns\WithBatchInserts;
+use RZP\Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Concerns\WithProgressBar;
+use RZP\Maatwebsite\Excel\Row;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 class ModelImporter

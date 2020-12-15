@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace RZP\Maatwebsite\Excel\Concerns;
 
 interface WithColumnFormatting
 {

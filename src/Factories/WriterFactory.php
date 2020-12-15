@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Factories;
+namespace RZP\Maatwebsite\Excel\Factories;
 
-use Maatwebsite\Excel\Concerns\MapsCsvSettings;
-use Maatwebsite\Excel\Concerns\WithCharts;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithPreCalculateFormulas;
+use RZP\Maatwebsite\Excel\Concerns\MapsCsvSettings;
+use RZP\Maatwebsite\Excel\Concerns\WithCharts;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Concerns\WithPreCalculateFormulas;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Csv;

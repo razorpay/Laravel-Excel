@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Excel;
 
 return [
 

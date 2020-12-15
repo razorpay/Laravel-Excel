@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Files;
+namespace RZP\Maatwebsite\Excel\Files;
 
 class LocalTemporaryFile extends TemporaryFile
 {

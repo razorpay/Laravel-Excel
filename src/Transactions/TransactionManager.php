@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Transactions;
+namespace RZP\Maatwebsite\Excel\Transactions;
 
 use Illuminate\Support\Manager;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace RZP\Maatwebsite\Excel\Mixins;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithHeadings;
-use Maatwebsite\Excel\Sheet;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\WithHeadings;
+use RZP\Maatwebsite\Excel\Sheet;
 
 class DownloadCollection
 {

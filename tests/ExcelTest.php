@@ -1,23 +1,23 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace RZP\Maatwebsite\Excel\Tests;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Facades\Excel as ExcelFacade;
-use Maatwebsite\Excel\Importer;
-use Maatwebsite\Excel\Tests\Data\Stubs\EmptyExport;
-use Maatwebsite\Excel\Tests\Helpers\FileHelper;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\FromView;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use RZP\Maatwebsite\Excel\Concerns\ToArray;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Facades\Excel as ExcelFacade;
+use RZP\Maatwebsite\Excel\Importer;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\EmptyExport;
+use RZP\Maatwebsite\Excel\Tests\Helpers\FileHelper;
 use PHPUnit\Framework\Assert;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 

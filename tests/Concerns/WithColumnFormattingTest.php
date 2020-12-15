@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithColumnFormatting;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\WithColumnFormatting;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use PhpOffice\PhpSpreadsheet\Shared\Date;
 use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
 

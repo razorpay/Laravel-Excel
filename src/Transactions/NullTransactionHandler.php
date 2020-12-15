@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Transactions;
+namespace RZP\Maatwebsite\Excel\Transactions;
 
 class NullTransactionHandler implements TransactionHandler
 {

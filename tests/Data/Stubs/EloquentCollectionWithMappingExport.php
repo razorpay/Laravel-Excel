@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Eloquent\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
 
 class EloquentCollectionWithMappingExport implements FromCollection, WithMapping
 {

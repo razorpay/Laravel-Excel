@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace RZP\Maatwebsite\Excel\Events;
 
-use Maatwebsite\Excel\Reader;
+use RZP\Maatwebsite\Excel\Reader;
 
 class BeforeImport extends Event
 {

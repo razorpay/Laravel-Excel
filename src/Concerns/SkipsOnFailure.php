@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace RZP\Maatwebsite\Excel\Concerns;
 
-use Maatwebsite\Excel\Validators\Failure;
+use RZP\Maatwebsite\Excel\Validators\Failure;
 
 interface SkipsOnFailure
 {

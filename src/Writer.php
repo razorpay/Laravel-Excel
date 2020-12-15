@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithTitle;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Factories\WriterFactory;
-use Maatwebsite\Excel\Files\RemoteTemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomValueBinder;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Concerns\WithTitle;
+use RZP\Maatwebsite\Excel\Events\BeforeExport;
+use RZP\Maatwebsite\Excel\Events\BeforeWriting;
+use RZP\Maatwebsite\Excel\Factories\WriterFactory;
+use RZP\Maatwebsite\Excel\Files\RemoteTemporaryFile;
+use RZP\Maatwebsite\Excel\Files\TemporaryFile;
+use RZP\Maatwebsite\Excel\Files\TemporaryFileFactory;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\Data\Stubs\WithTitleExport;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\WithTitleExport;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 
 class WithTitleTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Validators;
+namespace RZP\Maatwebsite\Excel\Validators;
 
 use Illuminate\Validation\ValidationException as IlluminateValidationException;
 

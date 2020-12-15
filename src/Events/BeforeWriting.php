@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace RZP\Maatwebsite\Excel\Events;
 
-use Maatwebsite\Excel\Writer;
+use RZP\Maatwebsite\Excel\Writer;
 
 class BeforeWriting extends Event
 {

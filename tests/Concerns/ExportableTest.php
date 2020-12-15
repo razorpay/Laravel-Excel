@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\Request;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ExportableTest extends TestCase

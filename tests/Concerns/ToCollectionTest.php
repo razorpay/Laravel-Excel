@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\ToCollection;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class ToCollectionTest extends TestCase

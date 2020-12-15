@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace RZP\Maatwebsite\Excel\Events;
 
-use Maatwebsite\Excel\Sheet;
+use RZP\Maatwebsite\Excel\Sheet;
 
 class AfterSheet extends Event
 {

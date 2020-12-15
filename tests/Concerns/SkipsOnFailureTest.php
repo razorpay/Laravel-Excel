@@ -1,20 +1,20 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Validation\Rule;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\OnEachRow;
-use Maatwebsite\Excel\Concerns\SkipsFailures;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Row;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Validators\Failure;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\OnEachRow;
+use RZP\Maatwebsite\Excel\Concerns\SkipsFailures;
+use RZP\Maatwebsite\Excel\Concerns\SkipsOnFailure;
+use RZP\Maatwebsite\Excel\Concerns\ToModel;
+use RZP\Maatwebsite\Excel\Concerns\WithBatchInserts;
+use RZP\Maatwebsite\Excel\Concerns\WithValidation;
+use RZP\Maatwebsite\Excel\Row;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Validators\Failure;
 use PHPUnit\Framework\Assert;
 
 class SkipsOnFailureTest extends TestCase

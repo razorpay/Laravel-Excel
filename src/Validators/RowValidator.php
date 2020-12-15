@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Validators;
+namespace RZP\Maatwebsite\Excel\Validators;
 
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException as IlluminateValidationException;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Exceptions\RowSkippedException;
+use RZP\Maatwebsite\Excel\Concerns\SkipsOnFailure;
+use RZP\Maatwebsite\Excel\Concerns\WithValidation;
+use RZP\Maatwebsite\Excel\Exceptions\RowSkippedException;
 
 class RowValidator
 {

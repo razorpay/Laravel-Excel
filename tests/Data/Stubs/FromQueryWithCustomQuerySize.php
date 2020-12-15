@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithCustomQuerySize;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromQuery;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomQuerySize;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
 
 class FromQueryWithCustomQuerySize implements FromQuery, WithCustomQuerySize, WithMapping, ShouldQueue
 {

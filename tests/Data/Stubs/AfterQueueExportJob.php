@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 
 class AfterQueueExportJob implements ShouldQueue
 {

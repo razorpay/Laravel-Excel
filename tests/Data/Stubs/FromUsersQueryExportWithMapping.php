@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Query\Builder;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromQuery;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Events\BeforeSheet;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
 
 class FromUsersQueryExportWithMapping implements FromQuery, WithMapping, WithEvents
 {

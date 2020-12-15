@@ -1,25 +1,25 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\Reader;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\ToArray;
+use RZP\Maatwebsite\Excel\Concerns\ToModel;
+use RZP\Maatwebsite\Excel\Concerns\WithBatchInserts;
+use RZP\Maatwebsite\Excel\Concerns\WithChunkReading;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Concerns\WithHeadingRow;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Events\AfterImport;
+use RZP\Maatwebsite\Excel\Events\BeforeImport;
+use RZP\Maatwebsite\Excel\Events\ImportFailed;
+use RZP\Maatwebsite\Excel\Reader;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Throwable;
 

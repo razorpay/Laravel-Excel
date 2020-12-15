@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace RZP\Maatwebsite\Excel\Imports;
 
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use Maatwebsite\Excel\Concerns\WithStartRow;
-use Maatwebsite\Excel\Row;
+use RZP\Maatwebsite\Excel\Concerns\WithHeadingRow;
+use RZP\Maatwebsite\Excel\Concerns\WithStartRow;
+use RZP\Maatwebsite\Excel\Row;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 class HeadingRowExtractor

@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetForUsersFromView;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
+use RZP\Maatwebsite\Excel\Concerns\ToArray;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\SheetForUsersFromView;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class WithMultipleSheetsTest extends TestCase

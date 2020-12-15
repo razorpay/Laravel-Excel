@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace RZP\Maatwebsite\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Importer;
-use Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\ToArray;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Importer;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class ImportableTest extends TestCase

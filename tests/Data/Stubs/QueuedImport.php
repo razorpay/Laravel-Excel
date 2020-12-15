@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\ToModel;
+use RZP\Maatwebsite\Excel\Concerns\WithBatchInserts;
+use RZP\Maatwebsite\Excel\Concerns\WithChunkReading;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
 
 class QueuedImport implements ShouldQueue, ToModel, WithChunkReading, WithBatchInserts
 {

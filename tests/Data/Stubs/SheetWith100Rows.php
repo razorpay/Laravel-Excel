@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
-use Maatwebsite\Excel\Concerns\ShouldAutoSize;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithTitle;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Writer;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use RZP\Maatwebsite\Excel\Concerns\ShouldAutoSize;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Concerns\WithTitle;
+use RZP\Maatwebsite\Excel\Events\BeforeWriting;
+use RZP\Maatwebsite\Excel\Tests\TestCase;
+use RZP\Maatwebsite\Excel\Writer;
 
 class SheetWith100Rows implements FromCollection, WithTitle, ShouldAutoSize, WithEvents
 {

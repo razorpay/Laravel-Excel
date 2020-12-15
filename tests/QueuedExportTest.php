@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace RZP\Maatwebsite\Excel\Tests;
 
 use Illuminate\Queue\Events\JobProcessing;
 use Illuminate\Support\Facades\Queue;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Files\RemoteTemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\EloquentCollectionWithMappingExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExportWithFailedHook;
-use Maatwebsite\Excel\Tests\Data\Stubs\ShouldQueueExport;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Files\RemoteTemporaryFile;
+use RZP\Maatwebsite\Excel\Files\TemporaryFile;
+use RZP\Maatwebsite\Excel\Jobs\AppendDataToSheet;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\EloquentCollectionWithMappingExport;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\QueuedExportWithFailedHook;
+use RZP\Maatwebsite\Excel\Tests\Data\Stubs\ShouldQueueExport;
 use Throwable;
 
 class QueuedExportTest extends TestCase

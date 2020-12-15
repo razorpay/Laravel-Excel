@@ -1,25 +1,25 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Collection;
 use InvalidArgumentException;
-use Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
-use Maatwebsite\Excel\Exceptions\SheetNotFoundException;
-use Maatwebsite\Excel\Factories\ReaderFactory;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use RZP\Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
+use RZP\Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use RZP\Maatwebsite\Excel\Concerns\WithChunkReading;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomValueBinder;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Events\AfterImport;
+use RZP\Maatwebsite\Excel\Events\BeforeImport;
+use RZP\Maatwebsite\Excel\Events\ImportFailed;
+use RZP\Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
+use RZP\Maatwebsite\Excel\Exceptions\SheetNotFoundException;
+use RZP\Maatwebsite\Excel\Factories\ReaderFactory;
+use RZP\Maatwebsite\Excel\Files\TemporaryFile;
+use RZP\Maatwebsite\Excel\Files\TemporaryFileFactory;
+use RZP\Maatwebsite\Excel\Transactions\TransactionHandler;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;

@@ -1,19 +1,19 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace RZP\Maatwebsite\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Filters\ChunkReadFilter;
-use Maatwebsite\Excel\HasEventBus;
-use Maatwebsite\Excel\Imports\HeadingRowExtractor;
-use Maatwebsite\Excel\Sheet;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use RZP\Maatwebsite\Excel\Concerns\WithChunkReading;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomValueBinder;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Events\ImportFailed;
+use RZP\Maatwebsite\Excel\Files\TemporaryFile;
+use RZP\Maatwebsite\Excel\Filters\ChunkReadFilter;
+use RZP\Maatwebsite\Excel\HasEventBus;
+use RZP\Maatwebsite\Excel\Imports\HeadingRowExtractor;
+use RZP\Maatwebsite\Excel\Sheet;
+use RZP\Maatwebsite\Excel\Transactions\TransactionHandler;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
 use Throwable;

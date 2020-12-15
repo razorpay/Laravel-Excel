@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace RZP\Maatwebsite\Excel\Imports;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\SkipsOnError;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Exceptions\RowSkippedException;
-use Maatwebsite\Excel\Validators\RowValidator;
-use Maatwebsite\Excel\Validators\ValidationException;
+use RZP\Maatwebsite\Excel\Concerns\SkipsOnError;
+use RZP\Maatwebsite\Excel\Concerns\ToModel;
+use RZP\Maatwebsite\Excel\Concerns\WithValidation;
+use RZP\Maatwebsite\Excel\Exceptions\RowSkippedException;
+use RZP\Maatwebsite\Excel\Validators\RowValidator;
+use RZP\Maatwebsite\Excel\Validators\ValidationException;
 use Throwable;
 
 class ModelManager

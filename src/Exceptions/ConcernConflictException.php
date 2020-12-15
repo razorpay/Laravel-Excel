@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Exceptions;
+namespace RZP\Maatwebsite\Excel\Exceptions;
 
 use LogicException;
 

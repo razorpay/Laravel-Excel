@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithLimit;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithStartRow;
-use Maatwebsite\Excel\Imports\HeadingRowFormatter;
+use RZP\Maatwebsite\Excel\Concerns\Importable;
+use RZP\Maatwebsite\Excel\Concerns\WithLimit;
+use RZP\Maatwebsite\Excel\Concerns\WithMapping;
+use RZP\Maatwebsite\Excel\Concerns\WithStartRow;
+use RZP\Maatwebsite\Excel\Imports\HeadingRowFormatter;
 
 class HeadingRowImport implements WithStartRow, WithLimit, WithMapping
 {

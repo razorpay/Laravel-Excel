@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Maatwebsite\Excel\Console\ExportMakeCommand;
-use Maatwebsite\Excel\Console\ImportMakeCommand;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Mixins\DownloadCollection;
-use Maatwebsite\Excel\Mixins\StoreCollection;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
-use Maatwebsite\Excel\Transactions\TransactionManager;
+use RZP\Maatwebsite\Excel\Console\ExportMakeCommand;
+use RZP\Maatwebsite\Excel\Console\ImportMakeCommand;
+use RZP\Maatwebsite\Excel\Files\Filesystem;
+use RZP\Maatwebsite\Excel\Files\TemporaryFileFactory;
+use RZP\Maatwebsite\Excel\Mixins\DownloadCollection;
+use RZP\Maatwebsite\Excel\Mixins\StoreCollection;
+use RZP\Maatwebsite\Excel\Transactions\TransactionHandler;
+use RZP\Maatwebsite\Excel\Transactions\TransactionManager;
 
 class ExcelServiceProvider extends ServiceProvider
 {

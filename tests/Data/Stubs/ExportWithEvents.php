@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace RZP\Maatwebsite\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeWriting;
+use RZP\Maatwebsite\Excel\Concerns\Exportable;
+use RZP\Maatwebsite\Excel\Concerns\WithEvents;
+use RZP\Maatwebsite\Excel\Events\AfterSheet;
+use RZP\Maatwebsite\Excel\Events\BeforeExport;
+use RZP\Maatwebsite\Excel\Events\BeforeSheet;
+use RZP\Maatwebsite\Excel\Events\BeforeWriting;
 
 class ExportWithEvents implements WithEvents
 {

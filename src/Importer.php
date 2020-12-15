@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\PendingDispatch;

@@ -1,22 +1,22 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace RZP\Maatwebsite\Excel;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Concerns\WithCustomQuerySize;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Jobs\AppendQueryToSheet;
-use Maatwebsite\Excel\Jobs\AppendViewToSheet;
-use Maatwebsite\Excel\Jobs\CloseSheet;
-use Maatwebsite\Excel\Jobs\QueueExport;
-use Maatwebsite\Excel\Jobs\StoreQueuedExport;
+use RZP\Maatwebsite\Excel\Concerns\FromCollection;
+use RZP\Maatwebsite\Excel\Concerns\FromQuery;
+use RZP\Maatwebsite\Excel\Concerns\FromView;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomChunkSize;
+use RZP\Maatwebsite\Excel\Concerns\WithCustomQuerySize;
+use RZP\Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use RZP\Maatwebsite\Excel\Files\TemporaryFile;
+use RZP\Maatwebsite\Excel\Files\TemporaryFileFactory;
+use RZP\Maatwebsite\Excel\Jobs\AppendDataToSheet;
+use RZP\Maatwebsite\Excel\Jobs\AppendQueryToSheet;
+use RZP\Maatwebsite\Excel\Jobs\AppendViewToSheet;
+use RZP\Maatwebsite\Excel\Jobs\CloseSheet;
+use RZP\Maatwebsite\Excel\Jobs\QueueExport;
+use RZP\Maatwebsite\Excel\Jobs\StoreQueuedExport;
 use Traversable;
 
 class QueuedWriter
