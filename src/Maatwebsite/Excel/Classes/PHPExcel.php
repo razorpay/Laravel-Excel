@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Classes;
+<?php namespace RZP\Maatwebsite\Excel\Classes;
 
 use PHPExcel as PHPOffice_PHPExcel;
 

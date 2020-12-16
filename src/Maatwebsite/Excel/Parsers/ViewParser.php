@@ -1,6 +1,6 @@
-<?php namespace Maatwebsite\Excel\Parsers;
+<?php namespace RZP\Maatwebsite\Excel\Parsers;
 
-use Maatwebsite\Excel\Readers\Html;
+use RZP\Maatwebsite\Excel\Readers\Html;
 use Illuminate\Support\Facades\View;
 
 /**

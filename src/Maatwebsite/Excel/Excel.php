@@ -1,11 +1,11 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace RZP\Maatwebsite\Excel;
 
 use Closure;
-use Maatwebsite\Excel\Readers\Batch;
-use Maatwebsite\Excel\Classes\PHPExcel;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Writers\LaravelExcelWriter;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Readers\Batch;
+use RZP\Maatwebsite\Excel\Classes\PHPExcel;
+use RZP\Maatwebsite\Excel\Readers\LaravelExcelReader;
+use RZP\Maatwebsite\Excel\Writers\LaravelExcelWriter;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 /**
  *

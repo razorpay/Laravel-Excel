@@ -1,6 +1,6 @@
-<?php namespace Maatwebsite\Excel\Writers;
+<?php namespace RZP\Maatwebsite\Excel\Writers;
 
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
+use RZP\Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
 
 /**
  *

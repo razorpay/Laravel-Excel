@@ -1,18 +1,18 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace RZP\Maatwebsite\Excel;
 
 use PHPExcel_Settings;
 use PHPExcel_Shared_Font;
-use Maatwebsite\Excel\Readers\Html;
-use Maatwebsite\Excel\Classes\Cache;
-use Maatwebsite\Excel\Classes\PHPExcel;
+use RZP\Maatwebsite\Excel\Readers\Html;
+use RZP\Maatwebsite\Excel\Classes\Cache;
+use RZP\Maatwebsite\Excel\Classes\PHPExcel;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Response;
-use Maatwebsite\Excel\Parsers\CssParser;
-use Maatwebsite\Excel\Parsers\ViewParser;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Writers\LaravelExcelWriter;
+use RZP\Maatwebsite\Excel\Parsers\CssParser;
+use RZP\Maatwebsite\Excel\Parsers\ViewParser;
+use RZP\Maatwebsite\Excel\Classes\FormatIdentifier;
+use RZP\Maatwebsite\Excel\Readers\LaravelExcelReader;
+use RZP\Maatwebsite\Excel\Writers\LaravelExcelWriter;
 use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 use Laravel\Lumen\Application as LumenApplication;
 

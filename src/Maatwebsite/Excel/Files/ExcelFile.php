@@ -1,8 +1,8 @@
-<?php namespace Maatwebsite\Excel\Files;
+<?php namespace RZP\Maatwebsite\Excel\Files;
 
 use Illuminate\Foundation\Application;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 abstract class ExcelFile extends File {
 

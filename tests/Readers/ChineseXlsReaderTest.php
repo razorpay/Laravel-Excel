@@ -1,8 +1,8 @@
 <?php
 
 use Mockery as m;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
-use Maatwebsite\Excel\Classes;
+use RZP\Maatwebsite\Excel\Readers\LaravelExcelReader;
+use RZP\Maatwebsite\Excel\Classes;
 
 class ChineseXlsReaderTest extends TestCase {
 

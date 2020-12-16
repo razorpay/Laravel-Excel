@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\ExcelServiceProvider;
+use RZP\Maatwebsite\Excel\ExcelServiceProvider;
 use Mockery as m;
 
 class LumenTestServiceProvider extends TestCase

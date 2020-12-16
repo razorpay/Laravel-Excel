@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Files\ExportHandler;
+use RZP\Maatwebsite\Excel\Files\ExportHandler;
 
 class TestNewFileHandler implements ExportHandler {
 

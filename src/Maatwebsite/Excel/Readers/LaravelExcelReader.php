@@ -1,17 +1,17 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace RZP\Maatwebsite\Excel\Readers;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Facades\Queue;
-use Maatwebsite\Excel\Classes\PHPExcel;
+use RZP\Maatwebsite\Excel\Classes\PHPExcel;
 use PHPExcel_Cell;
 use PHPExcel_IOFactory;
 use PHPExcel_Cell_IValueBinder;
 use PHPExcel_Cell_DefaultValueBinder;
 use Illuminate\Filesystem\Filesystem;
-use Maatwebsite\Excel\Parsers\ExcelParser;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Parsers\ExcelParser;
+use RZP\Maatwebsite\Excel\Classes\FormatIdentifier;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 /**
  * LaravelExcel Excel reader

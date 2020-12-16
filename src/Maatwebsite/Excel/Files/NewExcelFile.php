@@ -1,7 +1,7 @@
-<?php namespace Maatwebsite\Excel\Files;
+<?php namespace RZP\Maatwebsite\Excel\Files;
 
 use Illuminate\Foundation\Application;
-use Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Excel;
 
 abstract class NewExcelFile extends File {
 

@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Files\ImportHandler;
+use RZP\Maatwebsite\Excel\Files\ImportHandler;
 
 class TestFileHandler implements ImportHandler {
 

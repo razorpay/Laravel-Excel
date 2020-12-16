@@ -1,18 +1,18 @@
-<?php namespace Maatwebsite\Excel\Parsers;
+<?php namespace RZP\Maatwebsite\Excel\Parsers;
 
 use Carbon\Carbon;
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
-use Maatwebsite\Excel\Classes\PHPExcel;
-use Maatwebsite\Excel\Readers\LaravelExcelReader;
+use RZP\Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
+use RZP\Maatwebsite\Excel\Classes\PHPExcel;
+use RZP\Maatwebsite\Excel\Readers\LaravelExcelReader;
 use PHPExcel_Cell;
 use PHPExcel_Exception;
 use PHPExcel_Shared_Date;
 use Illuminate\Support\Str;
 use PHPExcel_Style_NumberFormat;
-use Maatwebsite\Excel\Collections\RowCollection;
-use Maatwebsite\Excel\Collections\CellCollection;
-use Maatwebsite\Excel\Collections\SheetCollection;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Collections\RowCollection;
+use RZP\Maatwebsite\Excel\Collections\CellCollection;
+use RZP\Maatwebsite\Excel\Collections\SheetCollection;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 /**
  *

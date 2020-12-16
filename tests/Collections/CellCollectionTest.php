@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Collections\CellCollection;
+use RZP\Maatwebsite\Excel\Collections\CellCollection;
 
 class CellCollectionTest extends TestCase {
 

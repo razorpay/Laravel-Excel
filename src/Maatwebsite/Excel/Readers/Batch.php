@@ -1,8 +1,8 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace RZP\Maatwebsite\Excel\Readers;
 
 use Closure;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 /**
  *

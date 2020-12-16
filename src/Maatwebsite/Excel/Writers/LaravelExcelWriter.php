@@ -1,13 +1,13 @@
-<?php namespace Maatwebsite\Excel\Writers;
+<?php namespace RZP\Maatwebsite\Excel\Writers;
 
 use Closure;
 use Carbon\Carbon;
 use PHPExcel_IOFactory;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Response;
-use Maatwebsite\Excel\Classes\FormatIdentifier;
-use Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Classes\FormatIdentifier;
+use RZP\Maatwebsite\Excel\Classes\LaravelExcelWorksheet;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 use Symfony\Component\Finder\Exception\AccessDeniedException;
 
 /**

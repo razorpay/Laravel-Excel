@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Files\ExcelFile;
+use RZP\Maatwebsite\Excel\Files\ExcelFile;
 
 class TestImport extends ExcelFile {
 

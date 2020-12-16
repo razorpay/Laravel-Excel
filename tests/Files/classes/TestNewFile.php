@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Files\NewExcelFile;
+use RZP\Maatwebsite\Excel\Files\NewExcelFile;
 
 class TestNewFile extends NewExcelFile {
 

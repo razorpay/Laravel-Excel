@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Collections;
+<?php namespace RZP\Maatwebsite\Excel\Collections;
 
 /**
  *

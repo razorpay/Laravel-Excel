@@ -1,7 +1,7 @@
 <?php
 
 use Mockery as m;
-use Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Excel;
 use Illuminate\Filesystem\Filesystem;
 
 class ExcelTestCase extends PHPUnit_Framework_TestCase {

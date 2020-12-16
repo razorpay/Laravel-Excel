@@ -1,12 +1,12 @@
-<?php namespace Maatwebsite\Excel\Classes;
+<?php namespace RZP\Maatwebsite\Excel\Classes;
 
 use Closure;
 use PHPExcel_Cell;
 use PHPExcel_Exception;
 use PHPExcel_Worksheet;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Writers\CellWriter;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Writers\CellWriter;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 use PHPExcel_Worksheet_PageSetup;
 
 /**

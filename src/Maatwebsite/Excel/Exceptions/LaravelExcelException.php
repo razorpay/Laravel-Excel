@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Exceptions;
+<?php namespace RZP\Maatwebsite\Excel\Exceptions;
 
 use PHPExcel_Exception;
 

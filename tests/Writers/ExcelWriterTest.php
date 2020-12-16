@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Facades\Excel;
+use RZP\Maatwebsite\Excel\Facades\Excel;
 
 class ExcelWriterTest extends TestCase {
 

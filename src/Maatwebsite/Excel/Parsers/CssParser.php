@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel\Parsers;
+<?php namespace RZP\Maatwebsite\Excel\Parsers;
 
 use DOMDocument;
 use Illuminate\Support\Facades\URL;

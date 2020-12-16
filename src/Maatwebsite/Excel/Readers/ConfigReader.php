@@ -1,10 +1,10 @@
-<?php namespace Maatwebsite\Excel\Readers;
+<?php namespace RZP\Maatwebsite\Excel\Readers;
 
 use Closure;
 use PHPExcel;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Collections\SheetCollection;
-use Maatwebsite\Excel\Exceptions\LaravelExcelException;
+use RZP\Maatwebsite\Excel\Excel;
+use RZP\Maatwebsite\Excel\Collections\SheetCollection;
+use RZP\Maatwebsite\Excel\Exceptions\LaravelExcelException;
 
 /**
  *
